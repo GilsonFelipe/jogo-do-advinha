@@ -1,10 +1,10 @@
 async function listaDeItens() {
-    const conexao = await fetch("http://localhost:3000/advinha")
+    const conexao = await fetch("https://json-server-one-self.vercel.app/advinha")
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida
 }
 async function criarItens(nome, dica1, dica2, dica3, id) {
-    const conexao = await fetch("http://localhost:3000/advinha", {
+    const conexao = await fetch("https://json-server-one-self.vercel.app/advinha", {
 
         method: "POST",
         headers: {
@@ -31,7 +31,7 @@ async function criarItens(nome, dica1, dica2, dica3, id) {
 }
 
 async function buscarProd(busca) {
-    const conexao = await fetch(`http://localhost:3000/advinha?q=${busca}`)
+    const conexao = await fetch(`https://json-server-one-self.vercel.app/advinha?q=${busca}`)
     const conexaoConvertida = conexao.json();
     return conexaoConvertida;
 }
