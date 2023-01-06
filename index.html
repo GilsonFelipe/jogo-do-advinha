@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icone.png" type="image/png">
+    <title>Advinhe a palavra</title>
+</head>
+
+<body>
+    <main>
+        <h1>Acerte a palavra secreta</h1>
+        <div class="pai">
+            <img src="./img/quest.svg" alt="" class="imagem">
+            <div class="menu">
+                <div class="dicas">
+                    <div class="tituloD">
+                        <i id="microfone" style="font-size:14px; cursor: pointer;" class="fa">&#xf130;</i>
+                        <h3 id="tDicas"></h3>
+                    </div>
+                    <span id="menor-valor"> </span>
+                    <span id="maior-valor"></span>
+                    <span id="outro-valor"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="chute" class="mensagem"></div>
+    </main>
+
+    <script type="module" src="app/conectApi.js"></script>
+    <script src="app/reconhecimentoDeVoz.js"></script>
+    <script type="module" src="app/mostrarPalavras.js"></script>
+    <script type="module" src="app/buscarPalavras.js"></script>
+</body>
+
+</html>

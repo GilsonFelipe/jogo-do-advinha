@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #252A34;
+    --primary-color: #EAEAEA;
+    --marinho-color: #08D9D6;
+    --rosa-color: #FF2E63;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 3em;
+    color: var(--rosa-color);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+    
+    
+}
+
+.imagem {
+    height: 10em;
+    width: 10em;
+}
+
+.tituloD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.dicas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1em;
+    gap: 1em;
+    padding: 1em;
+    max-width: 20em;
+
+}
+
+.pai {
+    display: flex;
+    margin-top: 1em;
+    gap: 1em;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--marinho-color);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.box {
+    border: 2px solid var(--marinho-color);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.6em;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 16px;
+    
+}
+
+.certa{
+    color: var(--rosa-color);
+}
+
+.jogarNv{
+    border: 1px solid var(--rosa-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    margin-top: 1.6em;
+    padding: 0.6em;
+    border-radius: 4em;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.jogarNv:hover{
+    border: 1px solid var(--marinho-color);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px)
+}
+

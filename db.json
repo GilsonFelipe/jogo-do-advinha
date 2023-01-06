@@ -1,0 +1,186 @@
+{
+  "advinha": [
+    {
+      "nome": "parafuso",
+      "dica1": "Gira para esquerda, Gira para direita",
+      "dica2": "Um lado fica apertado",
+      "dica3": "Do outro lado ele solta o que apertou",
+      "id": 1
+    },
+    {
+      "nome": "celular",
+      "dica1": "Se cair pode quebrar",
+      "dica2": "Se quebrar, o dedo pode machucar",
+      "dica3": "Ou o touchscreen pode parar de funcionar",
+      "id": 3
+    },
+    {
+      "nome": "câmera",
+      "dica1": "Me observa quase sempre",
+      "dica2": "Quando me reúno com meus amigos, 'ela' sempre encara a gente",
+      "dica3": "Não importa se é a da frente ou a de tras",
+      "id": 4
+    },
+    {
+      "nome": "teclado",
+      "dica1": "Sempre que aperto ele reage",
+      "dica2": "Alguns brilham outros não",
+      "dica3": "Tem no computador e no celular",
+      "id": 5
+    },
+    {
+      "nome": "mesa",
+      "dica1": "Minhas pernas ficam por baixo",
+      "dica2": "O que eu uso fica em cima",
+      "dica3": "É nela que me reúno na hora do jantar",
+      "id": 6
+    },
+    {
+      "nome": "papagaio",
+      "dica1": "É uma ave",
+      "dica2": "Com penas de varias cores",
+      "dica3": "Imita minha voz",
+      "id": 7
+    },
+    {
+      "nome": "garça",
+      "dica1": "Muito elegante",
+      "dica2": "É uma ave",
+      "dica3": "Encontrada próximas a fontes de água",
+      "id": 8
+    },
+    {
+      "nome": "arara",
+      "dica1": "É uma ave",
+      "dica2": "É da familia do papagaio",
+      "dica3": "Pórem, fala pouco",
+      "id": 9
+    },
+    {
+      "nome": "pernilongo",
+      "dica1": "Zuuum, zhuuuuuumm",
+      "dica2": "Ama aparecer enquanto eu durmo",
+      "dica3": "Adora meu sangue",
+      "id": 10
+    },
+    {
+      "nome": "cachorro",
+      "dica1": "Tem grande e tem pequeno",
+      "dica2": "Peludo ou sem pelo",
+      "dica3": "Melhor amigo do homem",
+      "id": 11
+    },
+    {
+      "nome": "música",
+      "dica1": "Me deixa feliz",
+      "dica2": "Me deixa triste",
+      "dica3": "Pode estar alto, pode estar baixo",
+      "id": 12
+    },
+    {
+      "nome": "monitor",
+      "dica1": "Tem de varios tamanhos",
+      "dica2": "Mostra varias cores",
+      "dica3": "Costuma ficar em cima da mesa",
+      "id": 13
+    },
+    {
+      "nome": "espelho",
+      "dica1": "Todos ja foram usados",
+      "dica2": "Azar ou sorte",
+      "dica3": "Vampiros não se veem",
+      "id": 14
+    },
+    {
+      "nome": "foto",
+      "dica1": "A primeira ____ é de uma janela",
+      "dica2": "Todas redes sociais tem",
+      "dica3": "É a principal do seu perfil",
+      "id": 15
+    },
+    {
+      "nome": "peixe",
+      "dica1": "Tem de tamanho minúsculo até gigante",
+      "dica2": "Tem milhares de espécies",
+      "dica3": "Alguns produzem iguarias",
+      "id": 16
+    },
+    {
+      "nome": "lixa",
+      "dica1": "Uso no carro",
+      "dica2": "Uso em algumas partes do corpo",
+      "dica3": "Provoca atrito",
+      "id": 17
+    },
+    {
+      "nome": "cadeira",
+      "dica1": "Tem diversos modelos",
+      "dica2": "É usado no dia a dia",
+      "dica3": "Tem no jantar, trabalho, praia, restaurante, etc..",
+      "id": 18
+    },
+    {
+      "nome": "livro",
+      "dica1": "Tem gente que não gosta",
+      "dica2": "Tem dois lados",
+      "dica3": "Guarda emoções, aventuras e tragédias",
+      "id": 19
+    },
+    {
+      "nome": "ventilador",
+      "dica1": "Tem noites que é bom, tem noites que não",
+      "dica2": "Vai da esquerda para direita e da direita para esquerda",
+      "dica3": "1 fraco, 2 medio, 3 forte..",
+      "id": 20
+    },
+    {
+      "nome": "calça",
+      "dica1": "Existe de varias cores e de alguns tamanhos",
+      "dica2": "Pode ser apertado ou não",
+      "dica3": "Quase todo mundo usa",
+      "id": 21
+    },
+    {
+      "nome": "perfume",
+      "dica1": "Alguns podem chegar a custar mais de R$7,500",
+      "dica2": "Pode ser doce ou amadeirado",
+      "dica3": "Pode ter cheiro bom ou ruim",
+      "id": 22
+    },
+    {
+      "nome": "tapete",
+      "dica1": "Até pessoas legais pisam 'nele'",
+      "dica2": "Pode estar em varios lugares",
+      "dica3": "Bem comum em carros",
+      "id": 23
+    },
+    {
+      "nome": "LED",
+      "dica1": "É econômico",
+      "dica2": "Tem colorido",
+      "dica3": "Gamer's adoram",
+      "id": 24
+    },
+    {
+      "nome": "cartão",
+      "dica1": "O ônibus usa",
+      "dica2": "O Shopping aceita",
+      "dica3": "A padaria também",
+      "id": 25
+    },
+    {
+      "nome": "academia",
+      "dica1": "Ninguém é tão velho que não possa ir",
+      "dica2": "Não existe o momento ideal para ir",
+      "dica3": "Quando eu vou, eu vonto com mais fome",
+      "id": 26
+    },
+    {
+      "nome": "relógio",
+      "dica1": "Uma das invenções humanas mais antigas",
+      "dica2": "O 'irmão mais velho' usava areia",
+      "dica3": "Tem portátil e de parede",
+      "id": 27
+    }
+  ]
+}
